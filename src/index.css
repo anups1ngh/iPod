@@ -32,7 +32,7 @@ code {
 	width: min-content;
 	padding: 20px 10px 5px 10px;
 	border-radius: 20px;
-	background-color: red;
+	background-color: purple;
 	/* background-image: url(""); */
 	box-shadow: 0px 0px 12px 2px black;
     background-size: cover;
@@ -155,7 +155,7 @@ code {
 	position: absolute;
 	z-index: 5;
 	left: 0%;
-	background-color: rgb(217, 108, 108);
+	background-color: rgb(248, 154, 255);
 	box-shadow: none;
 	overflow-x: hidden;
 	transition: width ease-in-out 0.2s;
@@ -202,8 +202,8 @@ code {
 	overflow: hidden;
 }
 .screen-music {
-	/* background-color: rgb(130, 130, 130); */
-	background-image: url("./song.jpg");
+	background-color: #36393e;
+	/* background-image: url("./song.jpg"); */
 	background-size: contain;
 	height: 100%;
 	width: 100%;
