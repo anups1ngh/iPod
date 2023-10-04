@@ -1,6 +1,10 @@
 # Reactive Pod
 <img src="https://img.shields.io/badge/Dev-Complete-brightgreen">
 
+<img src="./music.png" width="100px" height="100px" align="right">
+
+<video src="./myiPod.mp4" width="320" height="200" controls preload></video>
+
 > A Virtual i-pod using React JS.
 
 ## Tools Used
