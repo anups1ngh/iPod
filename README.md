@@ -10,8 +10,8 @@
 ![Firebase](https://miro.medium.com/max/1024/1*oT_l6QxMdTN65-0gwFqeNg.png)
 ![React JS](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
 
-1. Firebase cloud storage (to store songs).
-2. React JS
+- Firebase cloud storage (to store songs).
+- React JS
 
 ## Features
 1. Rotation-On simulation. (Device rotates and so does screen and buttons).
@@ -38,7 +38,7 @@
 ## Known Bugs:
 1. Changing lights in the circular buttons section stays ON even when the song has finished playing.
 
-ENJOY :)
+**ENJOY :)**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
