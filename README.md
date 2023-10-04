@@ -1,24 +1,24 @@
 # Reactive Pod
-<img src="https://img.shields.io/badge/Dev-Complete-brightgreen">
+![Dev Complete](https://img.shields.io/badge/Dev-Complete-brightgreen)
 
-<img src="./music.png" width="100px" height="100px" align="right">
-
+![iPod Image](./music.png)
 <video src="./myiPod.mp4" width="320" height="200" controls preload></video>
 
-> A Virtual i-pod using React JS.
+> A Virtual iPod using React JS.
 
 ## Tools Used
-<img src="https://miro.medium.com/max/1024/1*oT_l6QxMdTN65-0gwFqeNg.png" width=300px>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" width=200px>
+![Firebase](https://miro.medium.com/max/1024/1*oT_l6QxMdTN65-0gwFqeNg.png)
+![React JS](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
+
 1. Firebase cloud storage (to store songs).
 2. React JS
 
 ## Features
 1. Rotation-On simulation. (Device rotates and so does screen and buttons).
-2. Firebase Storage is used. Songs are streamed from Google's high speed Firebase Storage.
+2. Firebase Storage is used. Songs are streamed from Google's high-speed Firebase Storage.
 3. Instructions are mentioned on the screen. No room for any type of confusion.
 4. Action buttons light up when a song is being played.
-5. Lightening fast React JS based app.
+5. Lightning-fast React JS-based app.
 6. More songs can be added to the database with small changes here and there in the code. (Currently 6 songs for illustration)
 7. Swipe Enabled, i.e. One can swipe through the 4 buttons given in the circular portion to navigate through the menu.
 8. Songs can be switched without going to the All Songs screen again and again. (using the left and right arrow buttons provided in the Circular Actions Button Section).
@@ -33,7 +33,7 @@
 7. Songs can be found in the Music/All Songs Section. All other pages are dummy pages for illustration purposes.
 
 ## IMPORTANT:
-> An api Key is used to access the Firebase storage. which is in the SRC/index.js as process.env.REACTIVE_POD_API_KEY. It is intentionally hidden for security purposes. You may have to use your own Firebase Storage to edit and test the code on your system.
+> An API Key is used to access the Firebase storage, which is in the `SRC/index.js` as `process.env.REACTIVE_POD_API_KEY`. It is intentionally hidden for security purposes. You may have to use your own Firebase Storage to edit and test the code on your system.
 
 ## Known Bugs:
 1. Changing lights in the circular buttons section stays ON even when the song has finished playing.
@@ -75,9 +75,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ### Learn More
 
