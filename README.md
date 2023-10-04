@@ -1,10 +1,9 @@
 # Reactive Pod
 ![Dev Complete](https://img.shields.io/badge/Dev-Complete-brightgreen)
 
-![iPod Image](./music.png)
-<video src="./myiPod.mp4" width="320" height="200" controls preload></video>
+![iPod Image](./music.png =200x200)
 
-> A Virtual iPod using React JS.
+A Virtual iPod using React JS.
 
 ## Tools Used
 ![Firebase](https://miro.medium.com/max/1024/1*oT_l6QxMdTN65-0gwFqeNg.png)
@@ -31,6 +30,12 @@
 5. To change a song while another one is being played, click on the left or right arrow buttons and click on the Play/Pause button on the bottom.
 6. To rotate the screen, press the small circular button with `Rotation` symbol on the right mid on the app.
 7. Songs can be found in the Music/All Songs Section. All other pages are dummy pages for illustration purposes.
+
+## Video Demo
+<video width="320" height="240" controls>
+  <source src="./myiPod.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## IMPORTANT:
 > An API Key is used to access the Firebase storage, which is in the `SRC/index.js` as `process.env.REACTIVE_POD_API_KEY`. It is intentionally hidden for security purposes. You may have to use your own Firebase Storage to edit and test the code on your system.
@@ -64,47 +69,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified, and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However, we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-### Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-#### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-#### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-#### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-#### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-#### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-#### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
